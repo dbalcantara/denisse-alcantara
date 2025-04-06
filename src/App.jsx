@@ -9,13 +9,13 @@ import ProjectPage from './components/ProjectPage';
 function App() {
   return (
     <>
-      <BrowserRouter basename={import.meta.env.BASE_URL} >
+      <BrowserRouter >
         <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<ProjectPage />} />
         </Routes>
-              </BrowserRouter>
+      </BrowserRouter>
 
 
 
