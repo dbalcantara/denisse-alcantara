@@ -11,10 +11,13 @@ function App() {
   return (
     <>
       <HashRouter basename={process.env.PUBLIC_URL}>
-      <Route path="/" element={ HomePage() } />
-      <Route path="/about" element={ AboutPage() } />
-      <Route path="/projects" element={ ProjectPage() } />
-  </HashRouter>
+        <Routes>
+        <Route path="/" element={ HomePage() } />
+        <Route path="/about" element={ AboutPage() } />
+        <Route path="/projects" element={ ProjectPage() } />
+        </Routes>
+      
+    </HashRouter>
 
 
     </>
