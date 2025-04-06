@@ -1,0 +1,266 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.abt {
+    font-size: 0;
+}
+
+.details {
+    width: 1280px;
+    width: fit-content;
+    justify-items: center;
+    margin: 0 50px 0 0;
+    padding: 0;
+    padding-top: 80px;
+    border-radius: 30px;
+    justify-self: center;
+}
+
+.pic {
+    width: 200px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+
+.about-name {
+    color: whitesmoke;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+.loc {
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 0;
+    margin-bottom: 180px;
+
+}
+
+.arrow {
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+
+.titles {
+    font-size: 60px;
+    justify-self: center;
+    margin: 0 0 40px 0;
+    padding-top: 100px;
+}
+
+
+
+.school {
+    min-width: 1280px;
+    height: fit-content;
+    justify-items: center;
+    padding: 50px 50px 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.school-det {
+    justify-items: start;
+    margin: 0;
+    padding: 0;
+    margin-left: 150px;
+}
+
+.school-name {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+
+.duration {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.course {
+    color: whitesmoke;
+    font-size: 23px;
+    font-style: italic;
+    justify-self:flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.map {
+    margin-right: 200px;
+}
+
+
+.orgs {
+    margin: 50px 150px 0 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.org-position {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.org-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: italic;
+    justify-self:flex-start;
+    padding: 0;
+    margin: 0;
+
+}
+
+.org-name:hover {
+    color: whitesmoke;
+    font-size: 23px;
+    font-weight: 500;
+    justify-self:flex-start;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+
+}
+
+.org-link {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.org-link-logo {
+    height: auto;
+    width: 20px;
+    padding: 0;
+    padding-top: 2px;
+    margin: 0;
+}
+
+.position-detail, .org-detail {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    align-self:stretch;
+
+}
+
+.experience {
+    margin-bottom: 100px;
+}
+.company {
+    margin: 50px 150px 0 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.company-position {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+
+.company-name {
+    color: whitesmoke;
+    font-size: 23px;
+    font-style: italic;
+    justify-self:flex-start;
+    padding: 0;
+    margin: 0;
+
+}
+
+.company-link {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.company-link-logo {
+    height: auto;
+    width: 40px;
+    padding: 0;
+    padding-top: 2px;
+    margin: 0;
+}
+
+.company-detail {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+      visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+  }
+
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+  .floating-button-div {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    margin-bottom: 10px;
+
+  }
+  
+  
+.fb {
+    background-color: #d0d0d0;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    width: 200px;
+    height: 50px;
+}
+
+.fb:hover{
+    text-decoration: underline;
+    color: #2c2c2c
+}
