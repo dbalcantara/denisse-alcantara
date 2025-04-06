@@ -10,14 +10,14 @@ import { HashRouter} from 'react-router-dom';
 function App() {
   return (
     <>
-      <HashRouter basename="/denisse-alcantara">
+      <Router basename="/denisse-alcantara">
         <Routes>
         <Route path="/" element={ HomePage() } />
         <Route path="/about" element={ AboutPage() } />
         <Route path="/projects" element={ ProjectPage() } />
         </Routes>
       
-    </HashRouter>
+    </Router>
 
 
     </>
