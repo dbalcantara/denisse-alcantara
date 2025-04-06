@@ -10,7 +10,7 @@ import { HashRouter} from 'react-router-dom';
 function App() {
   return (
     <>
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename="/denisse-alcantara">
         <Routes>
         <Route path="/" element={ HomePage() } />
         <Route path="/about" element={ AboutPage() } />
