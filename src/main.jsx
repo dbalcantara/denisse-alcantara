@@ -4,7 +4,10 @@ import './index.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
+  <HashRouter basename={process.env.PUBLIC_URL}>
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
+  </HashRouter>
+
 )

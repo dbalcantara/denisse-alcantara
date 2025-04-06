@@ -7,7 +7,7 @@ import ProjectPage from './components/ProjectPage';
 
 function App() {
   return (
-      <Router  basename="https://dbalcantara.github.io/denisse-alcantara/">
+      <Router>
         <>
         <Routes>
           <Route path="/" element={ HomePage() } />
