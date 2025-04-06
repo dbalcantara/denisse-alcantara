@@ -3,6 +3,7 @@
   "name": "personal_website",
   "version": "0.0.0",
   "type": "module",
+  "private": false,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
