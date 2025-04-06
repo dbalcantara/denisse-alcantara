@@ -3,14 +3,19 @@ import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import ProjectPage from './components/ProjectPage';
+import { HashRouter} from 'react-router-dom';
+
 
 
 function App() {
   return (
     <>
-            <Route path="/denisse-alcantara/" element={ HomePage() } />
-          <Route path="/denisse-alcantara/about" element={ AboutPage() } />
-          <Route path="/denisse-alcantara/]/projects" element={ ProjectPage() } />
+      <HashRouter basename={process.env.PUBLIC_URL}>
+      <Route path="/" element={ HomePage() } />
+      <Route path="/about" element={ AboutPage() } />
+      <Route path="/projects" element={ ProjectPage() } />
+  </HashRouter>
+
 
     </>
 
