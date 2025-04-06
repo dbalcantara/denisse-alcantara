@@ -39,7 +39,7 @@ const HomePage = () => {
         <p className='works'>Here are some of my works: </p>
         <div className='projects'>
             <div className='proj-card'>
-            <figure class="hover-img">
+            <figure className="hover-img">
               <img src="./src/assets/farm2market.png"/>
               <a href='https://github.com/dbalcantara/Farm2Market.git' target='_blank'>
                 <figcaption>
@@ -51,7 +51,7 @@ const HomePage = () => {
             </div>
 
             <div className='proj-card'>
-            <figure class="hover-img">
+            <figure className="hover-img">
               <img src="./src/assets/cat.jpg"/>
               <a href='https://github.com/dbalcantara/Digital-Slambook' target='_blank'>
                 <figcaption>
@@ -62,7 +62,7 @@ const HomePage = () => {
             </figure>
             </div>
             <div className='proj-card'>
-            <figure class="hover-img">
+            <figure className="hover-img">
               <img src="./src/assets/cat.jpg"/>
               <a href='https://github.com/dbalcantara/Farm-To-Table.git' target='_blank'>
                 <figcaption>

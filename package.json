@@ -1,9 +1,8 @@
 {
   "name": "personal_website",
-  "private": true,
+  "homepage": "https://dbalcantara.github.io/denisse-alcantara/",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dbalcantara.github.io/denisse-alcantara/",
   
   "scripts": {
     "dev": "vite",
