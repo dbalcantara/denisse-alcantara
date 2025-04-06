@@ -10,9 +10,9 @@ function App() {
       <Router>
         <>
         <Routes>
-          <Route path="/" element={ HomePage() } />
-          <Route path="/about" element={ AboutPage() } />
-          <Route path="/projects" element={ ProjectPage() } />
+          <Route path="/denisse-alcantara/" element={ HomePage() } />
+          <Route path="/denisse-alcantara/about" element={ AboutPage() } />
+          <Route path="/denisse-alcantara/]/projects" element={ ProjectPage() } />
         </Routes>
         </>
       </Router>
