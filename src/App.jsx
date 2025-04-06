@@ -9,7 +9,7 @@ import ProjectPage from './components/ProjectPage';
 function App() {
   return (
     <>
-      <BrowserRouter >
+      <BrowserRouter basename='\denisse-alcantara'>
         <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
