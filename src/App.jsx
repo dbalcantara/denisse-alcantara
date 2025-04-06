@@ -3,6 +3,7 @@ import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import { Routes, Route, useNavigate } from "react-router-dom";
 import ProjectPage from './components/ProjectPage';
+import NavBar from './components/NavBar';
 
 
 
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+    <NavBar></NavBar>
     <button onClick={() => navigate('/')}>Home</button>
     <button onClick={() => navigate('/about')}>About</button>
     <button onClick={() => navigate('/project')}>About</button>
