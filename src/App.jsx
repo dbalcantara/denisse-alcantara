@@ -1,22 +1,14 @@
 import './App.css'
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import ProjectPage from './components/ProjectPage';
-import NavBar from './components/NavBar';
 
 
 
 function App() {
-  const navigate = useNavigate();
-
   return (
     <>
-    <NavBar></NavBar>
-    <button onClick={() => navigate('/')}>Home</button>
-    <button onClick={() => navigate('/about')}>About</button>
-    <button onClick={() => navigate('/project')}>About</button>
-
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
