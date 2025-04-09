@@ -34,7 +34,7 @@ const AboutPage = () => {
             <img src='./src/assets/1x1.jpeg' className='pic'/>
             <p className='about-name'>Denisse Jennievive B. Alcantara</p>
             <p className='loc'>Taguig City, Philippines</p>
-            <a href='#educ' className='arrow'>&#8595;</a>     
+            <Link href='#educ' className='arrow'>&#8595;</Link>     
         </div>
         </FadeInSection>
         <p id='educ'></p>
@@ -112,7 +112,7 @@ const AboutPage = () => {
         <Footer/>
     </FadeInSection>
     <div className="floating-button-div">
-    <a href='#about' className='fb'>Back to Top</a>
+    <Link href='#about' className='fb'>Back to Top</Link>
     </div>
     <NavBar/>
     </>
