@@ -59,7 +59,7 @@ const AboutPage = () => {
             <img src='./src/assets/1x1.jpeg' className='pic'/>
             <p className='about-name'>Denisse Jennievive B. Alcantara</p>
             <p className='loc'>Taguig City, Philippines</p>
-            <Link to="#educ" className='arrow'>&#8595;</Link>  {/* Use Link instead of anchor */}
+            <Link to="#educ" className='arrow'>&#8595;</Link>  {/* Fix: Only `#educ` */}
           </div>
         </FadeInSection>
 
@@ -134,7 +134,7 @@ const AboutPage = () => {
       </FadeInSection>
 
       <div className="floating-button-div">
-        <Link to="#about" className='fb'>Back to Top</Link>  {/* Link to 'about' section */}
+        <Link to="#about" className='fb'>Back to Top</Link>  {/* Fix: Only `#about` */}
       </div>
 
       <NavBar />
