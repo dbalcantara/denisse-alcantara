@@ -4,13 +4,13 @@ import './NavBar.css';
 const NavBar = () => {
   return (
     <div className='navbar'>
-      <a href='/denisse-alcantara/'>
+      <Link href='/denisse-alcantara/'>
         <img src='./src/assets/logo-red.png'/>
-      </a>
+      </Link>
         <div className='nav options'>
-            <a href="/denisse-alcantara/about" className='about-navitem'>About</a>
-            <a href="/denisse-alcantara/projects" className='project-navitem'>Projects</a>
-            <a href="/denisse-alcantara/" className='contact-navitem'>Contact</a>
+            <Link href="#/denisse-alcantara/about" className='about-navitem'>About</Link>
+            <Link href="#/denisse-alcantara/projects" className='project-navitem'>Projects</Link>
+            <Link href="#/denisse-alcantara/" className='contact-navitem'>Contact</Link>
         </div>
     </div>
   )
