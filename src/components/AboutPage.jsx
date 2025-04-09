@@ -34,7 +34,7 @@ const AboutPage = () => {
             <img src='./src/assets/1x1.jpeg' className='pic'/>
             <p className='about-name'>Denisse Jennievive B. Alcantara</p>
             <p className='loc'>Taguig City, Philippines</p>
-            <Link to="#educ" className='arrow'>&#8595;</Link>  {/* Fix: Only `#educ` */}
+            <Link to="/about/#educ" className='arrow'>&#8595;</Link>  {/* Fix: Only `#educ` */}
           </div>
         </FadeInSection>
         <p id='educ'></p>
@@ -75,7 +75,7 @@ const AboutPage = () => {
               <p className='org-position'>Externals Committee Head</p>
               <div className='org-link'>
                 <p className='org-name'>CATS of UPLB</p>
-                <a href='https://www.facebook.com/catsofuplb' target="_blank" className='org-link-logo'><img src='./src/assets/fb.png' className='org-link-logo'></img></a>
+                <a href='https://www.facebook.com/catsofuplb' target="_blank" className='org-link-logo'><img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreelogopng.com%2FNone%2F1224&psig=AOvVaw3PF7A1UuHUNcWUoSh5oxMZ&ust=1744268509351000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOiH49qwyowDFQAAAAAdAAAAABAE' className='org-link-logo'></img></a>
               </div>
               <p className='org-detail'>CATS of UPLB which stands for <i><b>Compassion for Animals Through Service (CATS) of UPLB Students</b></i>...</p>
               <p className='position-detail'>As the Externals Committee Head, I am responsible for overseeing communication with our partners...</p>
@@ -93,7 +93,7 @@ const AboutPage = () => {
               <div className='company-link'>
                 <p className='comppany-name'>SupSoft Tech</p>
                 <a href='https://www.linkedin.com/company/supsoft-tech/' target="_blank" className='company-link-logo'>
-                  <img src='./src/assets/linkedin.png' className='company-link-logo'></img>
+                  <img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Ficons8.com%2Ficons%2Fset%2Fgithub--white&psig=AOvVaw1ScqjHZsIad97L3-vjuTDl&ust=1744268481395000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKDUq8uwyowDFQAAAAAdAAAAABAE' className='company-link-logo'></img>
                 </a>
               </div>                
               <p className='company-detail'>As an intern at SupSoft Tech, ...</p>
