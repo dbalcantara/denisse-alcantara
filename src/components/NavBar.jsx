@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';  // Import the Link component
 const NavBar = () => {
   return (
     <div className='navbar'>
-      <Link href='/'>
+      <a href='/#/'>
         <img src='./src/assets/logo-red.png' alt="Logo" />
-      </Link>
+      </a>
       <div className='nav options'>
         <Link to="/about" className='about-navitem'>About</Link>
         <Link to="/projects" className='project-navitem'>Projects</Link>
@@ -17,4 +17,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default NavBar;

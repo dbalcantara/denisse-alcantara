@@ -7,7 +7,7 @@ import { Routes, Route, HashRouter } from "react-router-dom";
 function App() {
   return (
     <>
-      <HashRouter basename="/denisse-alcantara">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
@@ -15,7 +15,7 @@ function App() {
         </Routes>
       </HashRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
