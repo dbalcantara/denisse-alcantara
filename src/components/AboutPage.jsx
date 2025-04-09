@@ -24,31 +24,6 @@ function FadeInSection(props) {
 }
 
 const AboutPage = () => {
-
-  // Handle scroll to element when hash changes
-  useEffect(() => {
-    const onHashChange = () => {
-      const hash = window.location.hash;
-      if (hash) {
-        const targetElement = document.querySelector(hash);
-        if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
-        }
-      }
-    };
-
-    // Trigger the hash change effect when the component is mounted
-    onHashChange();
-
-    // Listen for hash changes (when the user clicks the links or updates the URL)
-    window.addEventListener('hashchange', onHashChange);
-
-    return () => {
-      // Clean up event listener when the component is unmounted
-      window.removeEventListener('hashchange', onHashChange);
-    };
-  }, []);
-
   return (
     <>
       <p className='abt'></p>
@@ -62,7 +37,6 @@ const AboutPage = () => {
             <Link to="#educ" className='arrow'>&#8595;</Link>  {/* Fix: Only `#educ` */}
           </div>
         </FadeInSection>
-
         <p id='educ'></p>
         <FadeInSection>
           {/* Education */}
@@ -134,7 +108,7 @@ const AboutPage = () => {
       </FadeInSection>
 
       <div className="floating-button-div">
-        <Link to="#about" className='fb'>Back to Top</Link>  {/* Fix: Only `#about` */}
+        <Link to="/about" className='fb'>Back to Top</Link>  {/* Fix: Only `#about` */}
       </div>
 
       <NavBar />
