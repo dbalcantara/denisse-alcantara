@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import NavBar from './NavBar';
 import './AboutPage.css';
 import Footer from './Footer';
@@ -24,6 +24,31 @@ function FadeInSection(props) {
 }
 
 const AboutPage = () => {
+
+  // Handle scroll to element when hash changes
+  useEffect(() => {
+    const onHashChange = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        const targetElement = document.querySelector(hash);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    };
+
+    // Trigger the hash change effect when the component is mounted
+    onHashChange();
+
+    // Listen for hash changes (when the user clicks the links or updates the URL)
+    window.addEventListener('hashchange', onHashChange);
+
+    return () => {
+      // Clean up event listener when the component is unmounted
+      window.removeEventListener('hashchange', onHashChange);
+    };
+  }, []);
+
   return (
     <>
       <p className='abt'></p>
