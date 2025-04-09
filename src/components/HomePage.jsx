@@ -2,6 +2,8 @@ import React from 'react'
 import NavBar from './NavBar'
 import './HomePage.css'
 import Footer from './Footer'
+import { Link } from 'react-router-dom';  // Import the Link component
+
 
 function FadeInSection(props) {
     const [isVisible, setVisible] = React.useState(false);
