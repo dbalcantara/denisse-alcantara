@@ -2,7 +2,7 @@ import NavBar from "./NavBar";
 import './ProjectPage.css';
 import React from 'react'
 import Footer from "./Footer";
-import Farm2Market from './src/assets/farm2market.png'
+import Farm2Market from '../assets/farm2market.png'
 
 function FadeInSection(props) {
     const [isVisible, setVisible] = React.useState(false);
