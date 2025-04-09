@@ -2,6 +2,8 @@ import React from 'react'
 import NavBar from './NavBar'
 import './AboutPage.css'
 import Footer from './Footer';
+import { Link } from 'react-router-dom';  // Import the Link component
+
 
 function FadeInSection(props) {
     const [isVisible, setVisible] = React.useState(false);
@@ -112,7 +114,7 @@ const AboutPage = () => {
         <Footer/>
     </FadeInSection>
     <div className="floating-button-div">
-    <Link to ='/about' className='fb'>Back to Top</Link>
+    <Link to ="/about" className='fb'>Back to Top</Link>
     </div>
     <NavBar/>
     </>
