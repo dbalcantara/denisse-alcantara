@@ -2,6 +2,7 @@ import NavBar from "./NavBar";
 import './ProjectPage.css';
 import React from 'react'
 import Footer from "./Footer";
+import Farm2Market from './src/assets/farm2market.png'
 
 function FadeInSection(props) {
     const [isVisible, setVisible] = React.useState(false);
@@ -30,7 +31,7 @@ const ProjectPage = () => {
             toolsUsed: "Python",
             githubLink: 'https://github.com/dbalcantara/Farm2Market.git',
             projectDetails: 'A command-line interface project to connect farmers to markets.',
-            image: './assets/farm2market.png',
+            image: {Farm2Market},
         },
         {
             name: 'Digital Slambook',
