@@ -28,25 +28,26 @@
     margin: 0;
     padding: 0;
     margin-bottom: 10px;
-    
+    justify-self: center;
+    margin-top: 10px;
 }
 
 .tools-used{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 5px;
+    column-gap: 10px;
     justify-content: center;
     height: 80px;
-    
+    margin-left: 50px;
 }
 
 .tools{
     font-size: 23px;
     font-family: sans-serif;
     justify-self: center;
+    justify-content: center;
     margin: 0;
-    padding: 0;
 }
 
 .git-link{
@@ -58,19 +59,21 @@
 }
 
 .git {
-    font-size: 12px;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    margin-top: 30px;
-    word-break: break-all ;
+  width: auto;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border-radius: 100%;
 }
+
 
 
 .github {
     display: flex;
     flex-direction: row;
-    word-break: keep-all;
+    column-gap: 85px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 
@@ -89,13 +92,13 @@
     color: #fff;
     display: inline-block;
     margin: 8px;
-    width: 360px;
-    height: auto;
+    width: auto;
+    height: 200px;
     overflow: hidden;
     position: relative;
     text-align: center;
   }
-  
+
   .hover-img * {
     transition: all 0.45s ease;
   }

@@ -73,12 +73,13 @@ const HomePage = () => {
             </figure>
             </div> 
         </div>
-        <p className='more'>See more of my works here. <a href='/projects' className='here'>&#8594;</a></p>
+        <p className='more'>See more of my works here. <a href='/denisse-alcantara/projects' className='here'>&#8594;</a></p>
     </div>
     </FadeInSection>
-    <Footer/>
+    <FadeInSection>
+      <Footer/>
+    </FadeInSection>
     <NavBar/>
-
     </>
   )
 }

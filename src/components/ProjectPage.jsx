@@ -30,7 +30,7 @@ const ProjectPage = () => {
             toolsUsed: "Python",
             githubLink: 'https://github.com/dbalcantara/Farm2Market.git',
             projectDetails: 'A command-line interface project to connect farmers to markets.',
-            image: 'https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg',
+            image: './src/assets/farm2market.png',
         },
         {
             name: 'Digital Slambook',
@@ -43,9 +43,9 @@ const ProjectPage = () => {
         {
             name: 'Farmer-Customer Web App',
             toolsUsed: ['JavaScript,', 'React,', 'MongoDB,', 'NodeJS'],
-            githubLink: 'https://github.com/example/farmer-customer-webapp',
+            githubLink: 'https://github.com/dbalcantara/farm-to-table.git',
             projectDetails: 'A web app that connects farmers directly to customers for selling produce.',
-            image: 'https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg',
+            image: './src/assets/farm2table.png',
         }
     ];
 
@@ -57,14 +57,18 @@ const ProjectPage = () => {
                     <div className="card" key={project.name}>
                         <div className='proj-card'>
                             <figure class="hover-img">
-                                <img src={project.image} alt={project.name}/>
+                                <img src={project.image} alt={project.name} className="proj-img"/>
                                 <figcaption>
                                 <h3>{project.name}</h3>
                                 </figcaption>
                             </figure>
                         </div>
                         <div className="detail-sec">
-                            <p className="tools-title">Tools Used:</p>
+                            <div className="detail-sec github">
+                                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="git"><img src="./src/assets/github.png" className="git"></img></a> 
+                                <p className="tools-title">Tools Used:</p>
+                            </div>
+                            
                             <div className="tools-used">
                             {Array.isArray(project.toolsUsed) 
                                 ? project.toolsUsed.map((tool, index) => <p key={index} className="tools">{tool}</p>) 
@@ -74,10 +78,7 @@ const ProjectPage = () => {
                         <div className="detail-sec">
                             <p className="proj-det">{project.projectDetails}</p>
                         </div>
-                        <div className="detail-sec github">
-                            <p className="git-link">GitHub Link:</p>
-                            <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="git">{project.githubLink}</a>
-                        </div>
+                        
                         
                     </div>
                 ))}
