@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';  // Import the Link component
 const NavBar = () => {
   return (
     <div className='navbar'>
-      <Link to='/'>
+      <Link to="/">
         <img src='./src/assets/logo-red.png' alt="Logo" />
       </Link>
       <div className='nav options'>

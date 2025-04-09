@@ -73,7 +73,7 @@ const HomePage = () => {
             </figure>
             </div> 
         </div>
-        <p className='more'>See more of my works here. <Link to='/projects' className='here'>&#8594;</Link></p>
+        <p className='more'>See more of my works here. <Link to="/projects" className='here'>&#8594;</Link></p>
     </div>
     </FadeInSection>
     <FadeInSection>
