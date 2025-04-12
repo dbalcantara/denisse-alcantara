@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import NavBar from './NavBar';
-import './AboutPage.css';
-import Footer from './Footer';
+import NavBar from './blob/main/src/NavBar';
+import './blob/main/src/AboutPage.css';
+import Footer from './blob/main/src/Footer';
 import { Link } from 'react-router-dom';  // Import the Link component
 
 function FadeInSection(props) {
@@ -31,7 +31,7 @@ const AboutPage = () => {
         <FadeInSection>
           {/* Details */}
           <div className='details'>
-            <img src='./1x1.jpeg' className='pic'/>
+            <img src='./blob/main/src/1x1.jpeg' className='pic'/>
             <p className='about-name'>Denisse Jennievive B. Alcantara</p>
             <p className='loc'>Taguig City, Philippines</p>
             <Link to="/about" className='arrow'>&#8595;</Link>  {/* Fix: Only `#educ` */}
@@ -75,7 +75,7 @@ const AboutPage = () => {
               <p className='org-position'>Externals Committee Head</p>
               <div className='org-link'>
                 <p className='org-name'>CATS of UPLB</p>
-                <a href='https://www.facebook.com/catsofuplb' target="_blank" className='org-link-logo'><img src='./fb.png' className='org-link-logo'></img></a>
+                <a href='https://www.facebook.com/catsofuplb' target="_blank" className='org-link-logo'><img src='./blob/main/src/fb.png' className='org-link-logo'></img></a>
               </div>
               <p className='org-detail'>CATS of UPLB which stands for <i><b>Compassion for Animals Through Service (CATS) of UPLB Students</b></i>...</p>
               <p className='position-detail'>As the Externals Committee Head, I am responsible for overseeing communication with our partners...</p>
@@ -93,7 +93,7 @@ const AboutPage = () => {
               <div className='company-link'>
                 <p className='comppany-name'>SupSoft Tech</p>
                 <a href='https://www.linkedin.com/company/supsoft-tech/' target="_blank" className='company-link-logo'>
-                  <img src='./linkedin.png' className='company-link-logo'></img>
+                  <img src='./blob/main/src/linkedin.png' className='company-link-logo'></img>
                 </a>
               </div>                
               <p className='company-detail'>As an intern at SupSoft Tech, ...</p>

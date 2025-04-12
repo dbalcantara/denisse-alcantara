@@ -1,7 +1,7 @@
 import React from 'react'
-import NavBar from './NavBar'
-import './HomePage.css'
-import Footer from './Footer'
+import NavBar from './blob/main/src/NavBar'
+import './blob/main/src/HomePage.css'
+import Footer from './blob/main/src/Footer'
 import { Link } from 'react-router-dom';  // Import the Link component
 
 
