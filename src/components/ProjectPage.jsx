@@ -29,14 +29,14 @@ const ProjectPage = () => {
             name: 'Farm2Market',
             toolsUsed: "Python",
             githubLink: 'https://github.com/dbalcantara/Farm2Market.git',
-            projectDetails: 'A command-line interface project to connect farmers to markets.',
+            projectDetails: 'A Command Line Interface-based Python program that allows a user to expand his farm given a capital of P5,000. Users can visit their farmlot, item shop, plants seeds, place livestocks, harvest and sell farm produce, and view inventory. The loaded game depending on who is the palyer through their names.',
             image: 'images/farm2market.png',
         },
         {
             name: 'Digital Slambook',
             toolsUsed: ['Java,', 'Flutter'],
             githubLink: 'https://github.com/example/digital-slambook',
-            projectDetails: 'A mobile app to create a digital slambook where users can share thoughts and memories.',
+            projectDetails: 'A mobile application that serves as a Digital Slambook, allowing users to add, view, manage their friends details, and personalize their profile. Each user can manually add a friend using the Slambook, or add them through a generated QR code by their friend. Users can also generate their own QR codes to be used by their friends, and all data are managed using Firebase Firestore.',
             image: 'https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg',
 
         },
@@ -44,7 +44,7 @@ const ProjectPage = () => {
             name: 'Farmer-Customer Web App',
             toolsUsed: ['JavaScript,', 'React,', 'MongoDB,', 'NodeJS'],
             githubLink: 'https://github.com/dbalcantara/farm-to-table.git',
-            projectDetails: 'A web app that connects farmers directly to customers for selling produce.',
+            projectDetails: 'An e-commerce website that facilitates transactions between farmers and customers directly wehre there are two roles: consumer and admin. Admin facilitates the list of users, catalog of goods, and product sales. Meanhwile, the consumers can sign in and sign up, view product listing, manage shopping cart, and do a dummy checkout.',
             image: 'images/farm2table.png',
         }
     ];
