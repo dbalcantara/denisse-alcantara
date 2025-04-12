@@ -1,5 +1,5 @@
 import React from 'react'
-import './blob/main/src/Footer.css'
+import './Footer.css'
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
         <p className='name'>DENISSE ALCANTARA</p>
         <div className='made-by' >
         <p className='foot-det'>handcrafted by</p>
-          <img  className='heart' src='./blob/main/src/heart.gif'/>
+          <img  className='heart' src='./blob/main/assets/heart.gif'/>
           <p className='foot-det'>yours truly</p>
         </div>
         <p className='foot-det'>Taguig City</p>

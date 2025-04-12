@@ -1,7 +1,7 @@
 import React from 'react'
-import NavBar from './blob/main/src/NavBar'
-import './blob/main/src/HomePage.css'
-import Footer from './blob/main/src/Footer'
+import NavBar from './NavBar'
+import './HomePage.css'
+import Footer from './Footer'
 import { Link } from 'react-router-dom';  // Import the Link component
 
 
@@ -42,7 +42,7 @@ const HomePage = () => {
         <div className='projects'>
             <div className='proj-card'>
             <figure className="hover-img">
-              <img src="https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg"/>
+              <img src="./blob/main/assets/farm2market.png"/>
               <a href='https://github.com/dbalcantara/Farm2Market.git' target='_blank'>
                 <figcaption>
                 <h3>Farm2Market</h3>
@@ -54,7 +54,7 @@ const HomePage = () => {
 
             <div className='proj-card'>
             <figure className="hover-img">
-              <img src="https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg"/>
+              <img src="./blob/main/assets/cat.jpg"/>
               <a href='https://github.com/dbalcantara/Digital-Slambook' target='_blank'>
                 <figcaption>
                 <h3>Digital Slambook</h3>
@@ -65,7 +65,7 @@ const HomePage = () => {
             </div>
             <div className='proj-card'>
             <figure className="hover-img">
-              <img src="https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg"/>
+              <img src="./blob/main/assets/cat.jpg"/>
               <a href='https://github.com/dbalcantara/Farm-To-Table.git' target='_blank'>
                 <figcaption>
                 <h3>Farm-to-Table</h3>

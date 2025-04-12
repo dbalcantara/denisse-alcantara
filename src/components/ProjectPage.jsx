@@ -1,7 +1,7 @@
-import NavBar from "./blob/main/src/NavBar";
-import './blob/main/src/ProjectPage.css';
+import NavBar from "./NavBar";
+import './ProjectPage.css';
 import React from 'react'
-import Footer from "./blob/main/src/Footer";
+import Footer from "./Footer";
 
 function FadeInSection(props) {
     const [isVisible, setVisible] = React.useState(false);
@@ -30,7 +30,7 @@ const ProjectPage = () => {
             toolsUsed: "Python",
             githubLink: 'https://github.com/dbalcantara/Farm2Market.git',
             projectDetails: 'A command-line interface project to connect farmers to markets.',
-            image: './blob/main/src/farm2market.png',
+            image: './blob/main/assets/farm2market.png',
         },
         {
             name: 'Digital Slambook',
@@ -45,7 +45,7 @@ const ProjectPage = () => {
             toolsUsed: ['JavaScript,', 'React,', 'MongoDB,', 'NodeJS'],
             githubLink: 'https://github.com/dbalcantara/farm-to-table.git',
             projectDetails: 'A web app that connects farmers directly to customers for selling produce.',
-            image: './blob/main/src/farm2table.png',
+            image: './blob/main/assets/farm2table.png',
         }
     ];
 
@@ -65,7 +65,7 @@ const ProjectPage = () => {
                         </div>
                         <div className="detail-sec">
                             <div className="detail-sec github">
-                                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="git"><img src="./blob/main/src/github.png" className="git"></img></a> 
+                                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="git"><img src="./blob/main/assets/github.png" className="git"></img></a> 
                                 <p className="tools-title">Tools Used:</p>
                             </div>
                             
