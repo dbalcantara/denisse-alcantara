@@ -42,7 +42,7 @@ const HomePage = () => {
         <div className='projects'>
             <div className='proj-card'>
             <figure className="hover-img">
-              <img src="./farm2market.PNG"/>
+              <img src="https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg"/>
               <a href='https://github.com/dbalcantara/Farm2Market.git' target='_blank'>
                 <figcaption>
                 <h3>Farm2Market</h3>
@@ -54,7 +54,7 @@ const HomePage = () => {
 
             <div className='proj-card'>
             <figure className="hover-img">
-              <img src="./cat.JPEG"/>
+              <img src="https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg"/>
               <a href='https://github.com/dbalcantara/Digital-Slambook' target='_blank'>
                 <figcaption>
                 <h3>Digital Slambook</h3>
@@ -65,7 +65,7 @@ const HomePage = () => {
             </div>
             <div className='proj-card'>
             <figure className="hover-img">
-              <img src="./cat.jpg"/>
+              <img src="https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg"/>
               <a href='https://github.com/dbalcantara/Farm-To-Table.git' target='_blank'>
                 <figcaption>
                 <h3>Farm-to-Table</h3>
