@@ -42,7 +42,7 @@ const HomePage = () => {
         <div className='projects'>
             <div className='proj-card'>
             <figure className="hover-img">
-              <img src="./farm2market.png"/>
+              <img src="./farm2market.PNG"/>
               <a href='https://github.com/dbalcantara/Farm2Market.git' target='_blank'>
                 <figcaption>
                 <h3>Farm2Market</h3>
@@ -54,7 +54,7 @@ const HomePage = () => {
 
             <div className='proj-card'>
             <figure className="hover-img">
-              <img src="./cat.jpg"/>
+              <img src="./cat.JPEG"/>
               <a href='https://github.com/dbalcantara/Digital-Slambook' target='_blank'>
                 <figcaption>
                 <h3>Digital Slambook</h3>
