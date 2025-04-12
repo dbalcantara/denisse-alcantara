@@ -3,7 +3,7 @@ import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import ProjectPage from './components/ProjectPage';
 import { Routes, Route, HashRouter } from "react-router-dom";
-import './assets';
+import './assets/*';
 
 function App() {
   return (
