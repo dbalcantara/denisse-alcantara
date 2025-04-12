@@ -91,7 +91,7 @@ const AboutPage = () => {
             <div className='company'>
               <p className='company-position'>Front-End Developer Intern</p>
               <div className='company-link'>
-                <p className='comppany-name'>SupSoft Tech</p>
+                <p className='company-name'>SupSoft Tech</p>
                 <a href='https://www.linkedin.com/company/supsoft-tech/' target="_blank" className='company-link-logo'>
                   <img src='images/linkedin.png' className='company-link-logo'></img>
                 </a>

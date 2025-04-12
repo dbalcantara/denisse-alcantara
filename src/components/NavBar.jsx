@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <div className='navbar'>
       <Link to="/">
-        <img src='./assets/logo-red.png' alt="Logo" />
+        <img src='images/logo-red.png' alt="Logo" />
       </Link>
       <div className='nav options'>
         <Link to="/about" className='about-navitem'>About</Link>

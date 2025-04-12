@@ -1,6 +1,6 @@
 .navbar {
     min-width: 100%;
-    height: fit-content;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

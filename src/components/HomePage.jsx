@@ -65,7 +65,7 @@ const HomePage = () => {
             </div>
             <div className='proj-card'>
             <figure className="hover-img">
-              <img src="images/cat.jpg"/>
+              <img src="images/farm2table.png"/>
               <a href='https://github.com/dbalcantara/Farm-To-Table.git' target='_blank'>
                 <figcaption>
                 <h3>Farm-to-Table</h3>
