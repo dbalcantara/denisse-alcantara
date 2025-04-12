@@ -31,7 +31,7 @@ const AboutPage = () => {
         <FadeInSection>
           {/* Details */}
           <div className='details'>
-            <img src='./assets/1x1.jpeg' className='pic'/>
+            <img src='./public/assets/1x1.jpeg' className='pic'/>
             <p className='about-name'>Denisse Jennievive B. Alcantara</p>
             <p className='loc'>Taguig City, Philippines</p>
             <Link to="/about" className='arrow'>&#8595;</Link>  {/* Fix: Only `#educ` */}
@@ -75,7 +75,7 @@ const AboutPage = () => {
               <p className='org-position'>Externals Committee Head</p>
               <div className='org-link'>
                 <p className='org-name'>CATS of UPLB</p>
-                <a href='https://www.facebook.com/catsofuplb' target="_blank" className='org-link-logo'><img src='./assets/fb.png' className='org-link-logo'></img></a>
+                <a href='https://www.facebook.com/catsofuplb' target="_blank" className='org-link-logo'><img src='./public/assets/fb.png' className='org-link-logo'></img></a>
               </div>
               <p className='org-detail'>CATS of UPLB which stands for <i><b>Compassion for Animals Through Service (CATS) of UPLB Students</b></i>...</p>
               <p className='position-detail'>As the Externals Committee Head, I am responsible for overseeing communication with our partners...</p>
@@ -93,7 +93,7 @@ const AboutPage = () => {
               <div className='company-link'>
                 <p className='comppany-name'>SupSoft Tech</p>
                 <a href='https://www.linkedin.com/company/supsoft-tech/' target="_blank" className='company-link-logo'>
-                  <img src='./assets/linkedin.png' className='company-link-logo'></img>
+                  <img src='./public/assets/linkedin.png' className='company-link-logo'></img>
                 </a>
               </div>                
               <p className='company-detail'>As an intern at SupSoft Tech, ...</p>
